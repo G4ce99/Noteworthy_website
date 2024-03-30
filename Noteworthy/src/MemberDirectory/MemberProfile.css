@@ -1,0 +1,8 @@
+.memberProfileContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.memberProfileContent > img{
+    width: 400px;
+}

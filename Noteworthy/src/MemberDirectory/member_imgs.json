@@ -1,0 +1,66 @@
+[
+    {
+        "memberId": 0,
+        "img_path": "./src/MemberDirectory/member_headshots/eddie.jpg"
+    },
+    {
+        "memberId": 1,
+        "img_path": "./src/MemberDirectory/member_headshots/ellington.jpg"
+    },
+    {
+        "memberId": 2,
+        "img_path": "./src/MemberDirectory/member_headshots/stephanus.jpg"
+    },
+    {
+        "memberId": 3,
+        "img_path": "./src/MemberDirectory/member_headshots/andrew.jpg"
+    },
+    {
+        "memberId": 4,
+        "img_path": "./src/MemberDirectory/member_headshots/tom.jpg"
+    },
+    {
+        "memberId": 5,
+        "img_path": "./src/MemberDirectory/member_headshots/alex.jpg"
+    },
+    {
+        "memberId": 6,
+        "img_path": "./src/MemberDirectory/member_headshots/bhaskar.jpg"
+    },
+    {
+        "memberId": 7,
+        "img_path": "./src/MemberDirectory/member_headshots/jerry.jpg"
+    },
+    {
+        "memberId": 8,
+        "img_path": "./src/MemberDirectory/member_headshots/maya.jpg"
+    },
+    {
+        "memberId": 9,
+        "img_path": "./src/MemberDirectory/member_headshots/dell.jpg"
+    },
+    {
+        "memberId": 10,
+        "img_path": "./src/MemberDirectory/member_headshots/justin.jpg"
+    },
+    {
+        "memberId": 11,
+        "img_path": "./src/MemberDirectory/member_headshots/athena.jpg"
+    },
+    {
+        "memberId": 12,
+        "img_path": "./src/MemberDirectory/member_headshots/kian.jpg"
+    },
+    {
+        "memberId": 13,
+        "img_path": "./src/MemberDirectory/member_headshots/ethan.jpg"
+    },
+    {
+        "memberId": 14,
+        "img_path": "./src/MemberDirectory/member_headshots/madlen.jpg"
+    },
+    {
+        "memberId": 15,
+        "img_path": "./src/MemberDirectory/member_headshots/chris.jpg"
+    }
+]

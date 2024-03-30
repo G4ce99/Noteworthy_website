@@ -3,7 +3,7 @@
 }
 
 /* NEED TO SET/AUTOMATE WIDTH */
-.memberPreviewTable {
+.memberProfileTable {
     display: flex;
     flex-direction: column;
 
@@ -15,5 +15,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }

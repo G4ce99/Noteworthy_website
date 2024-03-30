@@ -11,12 +11,16 @@ function MemberDirectory() {
 
   const enterBio = (m_id) => {
     setScrollHeight(window.scrollY)
+    document.body.style.paddingRight = '17px'
     document.getElementsByClassName('profileRow').style = {'position': 'fixed', 'left': '50%', 'transform': 'translateX(-50%)'}
+    document.body.style.overflow = 'hidden'
     setCurrId(m_id)
   }
   const exitBio = () => {
     setCurrId(-1)
+    document.body.style.overflow = 'visible'
     document.getElementsByClassName('profileRow').style = {'position': 'static', 'left': 0, 'transform': 'translateX(0)'}
+    document.body.style.paddingRight = 0
     window.scrollTo(0, scrollHeight)
   }
 
@@ -53,7 +57,6 @@ function MemberDirectory() {
       <div class="memberProfileTable">
         {rows}
       </div>
-      <p>CurrID currently equals: {CurrId}</p>
       <div>Socials Go Here!</div>
     </>
   )

@@ -1,3 +1,15 @@
+.memberButton {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    /* background-color: transparent; */
+    border: none;
+    outline: none;
+    border-radius: 5%;
+}
+
 .memberProfileContent {
     display: flex;
     flex-direction: column;
@@ -5,4 +17,7 @@
 
 .memberProfileContent > img{
     width: 400px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
+

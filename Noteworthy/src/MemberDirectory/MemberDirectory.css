@@ -1,5 +1,25 @@
 #root {
     text-align: center;
+    background-image: linear-gradient(to bottom, #2E4564, #C6DDED);
+}
+
+.title {
+    background: linear-gradient(to bottom, #ECC12A, #F0F1CF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    font-size: 36pt;
+}
+
+.subtitle {
+    background: linear-gradient(to bottom, #ECC12A, #F0F1CF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 16pt;
 }
 
 /* NEED TO SET/AUTOMATE WIDTH */
@@ -14,8 +34,8 @@
 .profileRow {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 }

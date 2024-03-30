@@ -6,6 +6,8 @@ import MemberProfile from './MemberProfile.jsx'
 
 
 function MemberDirectory() {
+  document.body.style.margin = 0
+
   const [CurrId, setCurrId] = useState(-1)
   const [scrollHeight, setScrollHeight] = useState(0)
 
@@ -53,7 +55,8 @@ function MemberDirectory() {
   return (
     <>
       <div>NavBar Goes Here!</div>
-      <h2>M E M B E R S</h2>
+      <h2 class="title">M E M B E R S</h2>
+      <h3 class="subtitle">Click on their profiles to learn more!</h3>
       <div class="memberProfileTable">
         {rows}
       </div>

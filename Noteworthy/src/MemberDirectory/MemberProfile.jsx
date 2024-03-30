@@ -11,7 +11,7 @@ function MemberProfile(props) {
   const mem_img = imgData[props.member_id].img_path
   return (
     <>
-      <button onClick={props.on_profile_click}>
+      <button class="memberButton" onClick={props.on_profile_click}>
         <div class="memberProfileContent">
           <img src={mem_img} />
           <h3>{data.name}</h3>

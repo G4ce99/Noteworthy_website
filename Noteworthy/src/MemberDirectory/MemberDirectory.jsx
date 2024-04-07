@@ -1,6 +1,9 @@
 import { useState } from 'react'
 
 import './MemberDirectory.css'
+// Note from creator: Use the following guide to export the google sheet with form responses to JSON and put in member_info.json
+// https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/
+// Member image json data were uploaded manually for the Member Profiles/Bio components, but can created similarly
 import jsonData from './member_info.json'
 import MemberProfile from './MemberProfile.jsx'
 
@@ -60,7 +63,12 @@ function MemberDirectory() {
       <div class="memberProfileTable">
         {rows}
       </div>
-      <div>Socials Go Here!</div>
+      <div>
+        <a href="https://www.instagram.com/cal_noteworthy/" target="_blank"><img src="./src/MemberDirectory/social_imgs/insta.png" class="socialImg"/></a>
+        <a href="https://www.facebook.com/Noteworthy" target="_blank"><img src="./src/MemberDirectory/social_imgs/facebook.png" class="socialImg"/></a>
+        <a href="https://www.tiktok.com/@uc_noteworthy" target="_blank"><img src="./src/MemberDirectory/social_imgs/tiktok.png" class="socialImg"/></a>
+        <a href="https://www.youtube.com/channel/UCDyMtV5cuuJZrg5Wm7VZmMA" target="_blank"><img src="./src/MemberDirectory/social_imgs/youtube.png" class="socialImg"/></a>
+      </div>
     </>
   )
 }

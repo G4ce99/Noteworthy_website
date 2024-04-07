@@ -15,24 +15,28 @@ function MemberBioPage(props) {
     <>
       <div class="darkOverlay"></div>
       <div class="memberBioBlock">
-        <button class="exitButton" onClick={props.exit_bio}>x</button>
+        <button class="exitButton" onClick={props.exit_bio}>✕</button>
         <div class="memberBioContent">
-          <button onClick={props.go_left_bio}>‹</button>
+          <div class="leftArrow">
+            <button onClick={props.go_left_bio}>‹</button>
+          </div>
           <div class="memberBio">
             <div class="photoAndInfo">
               <img src={mem_img}/>
               <div class="info">
                 <h3>{data.name}</h3>
-                <p>Voice part: {data.voicePart}</p>
-                <p>Semester in Noteworthy: {data.semesterInNoteworthy}</p>
-                <p>Semester in Berkeley: {data.semesterInBerkeley}</p>
-                <p>Majors/Minors: {data.majorsminors}</p>
-                <p>Interests: {data.interests}</p>
+                <p><b>Voice part:</b> {data.voicePart}</p>
+                <p><b>Semester in Noteworthy:</b> {data.semesterInNoteworthy}</p>
+                <p><b>Semester in Berkeley:</b> {data.semesterInBerkeley}</p>
+                <p><b>Majors/Minors:</b> {data.majorsminors}</p>
+                <p><b>Interests:</b> {data.interests}</p>
               </div>
             </div>
             <p class="bio">Bio: {data.bio}</p>
           </div>
-          <button onClick={props.go_right_bio}>›</button>
+          <div class="rightArrow">
+            <button onClick={props.go_right_bio}>›</button>
+          </div>
         </div>
       </div>
     </>, 

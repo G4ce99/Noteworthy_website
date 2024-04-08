@@ -1,0 +1,33 @@
+.home-page {
+    background-image: url('./noteworthy.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+
+.title {
+    position: absolute;
+    top: 80%;
+}
+
+.line {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background-color: white;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E4564; 
+    opacity: 0.4;
+}

@@ -1,8 +1,28 @@
 import ReactDOM from 'react-dom'
+//import { useState, useEffect } from 'react'
 
 import './MemberBioPage.css'
 import jsonData from './member_info.json'
 import imgData from './member_imgs.json'
+
+// Got help from this link: https://stackoverflow.com/questions/19014250/rerender-view-on-browser-resize-with-react
+// function useWindowWidth() {
+//   const [width, setWidth] = useState(window.innerWidth);
+//   useEffect(() => {
+//     function updateWidth() {
+//       setWidth(window.innerWidth);
+//       if (width >= 1000) {
+//         document.getElementsByClassName('photoAndInfo')[0].style.flexDirection='row'
+//       } else {
+//         document.getElementsByClassName('photoAndInfo')[0].style.flexDirection='col'
+//       }
+//     }
+//     window.addEventListener('resize', updateWidth);
+//     updateWidth();
+//     return () => window.removeEventListener('resize', updateWidth);
+//   }, []);
+//   return width;
+// }
 
 function MemberBioPage(props) {
   if (!props.is_active_bio) {
@@ -15,24 +35,28 @@ function MemberBioPage(props) {
     <>
       <div class="darkOverlay"></div>
       <div class="memberBioBlock">
-        <button class="exitButton" onClick={props.exit_bio}>x</button>
+        <button class="exitButton" onClick={props.exit_bio}>✕</button>
         <div class="memberBioContent">
-          <button onClick={props.go_left_bio}>‹</button>
+          <div class="leftArrow">
+            <button onClick={props.go_left_bio}>‹</button>
+          </div>
           <div class="memberBio">
-            <div class="photoAndInfo">
+            <div class="photoAndInfo"> 
               <img src={mem_img}/>
               <div class="info">
-                <h3>{data.name}</h3>
-                <p>Voice part: {data.voicePart}</p>
-                <p>Semester in Noteworthy: {data.semesterInNoteworthy}</p>
-                <p>Semester in Berkeley: {data.semesterInBerkeley}</p>
-                <p>Majors/Minors: {data.majorsminors}</p>
-                <p>Interests: {data.interests}</p>
+                <h3 class="info-title">{data.name}</h3>
+                <p class="info-text"><b>Voice part:</b> {data.voicePart}</p>
+                <p class="info-text"><b>Semester in Noteworthy:</b> {data.semesterInNoteworthy}</p>
+                <p class="info-text"><b>Semester in Berkeley:</b> {data.semesterInBerkeley}</p>
+                <p class="info-text"><b>Majors/Minors:</b> {data.majorsminors}</p>
+                <p class="info-text"><b>Interests:</b> {data.interests}</p>
               </div>
             </div>
-            <p class="bio">Bio: {data.bio}</p>
+            <p class="bio"><b>My Bio</b><br></br>{data.bio}</p>
           </div>
-          <button onClick={props.go_right_bio}>›</button>
+          <div class="rightArrow">
+            <button onClick={props.go_right_bio}>›</button>
+          </div>
         </div>
       </div>
     </>, 

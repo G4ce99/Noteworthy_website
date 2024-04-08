@@ -9,58 +9,70 @@
     },
     {
         "memberId": 2,
-        "img_path": "./src/MemberDirectory/member_headshots/stephanus.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/jessica.jpg"
     },
     {
         "memberId": 3,
-        "img_path": "./src/MemberDirectory/member_headshots/andrew.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/stephanus.jpg"
     },
     {
         "memberId": 4,
-        "img_path": "./src/MemberDirectory/member_headshots/tom.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/andrew.jpg"
     },
     {
         "memberId": 5,
-        "img_path": "./src/MemberDirectory/member_headshots/alex.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/tom.jpg"
     },
     {
         "memberId": 6,
-        "img_path": "./src/MemberDirectory/member_headshots/bhaskar.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/alex.jpg"
     },
     {
         "memberId": 7,
-        "img_path": "./src/MemberDirectory/member_headshots/jerry.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/bhaskar.jpg"
     },
     {
         "memberId": 8,
-        "img_path": "./src/MemberDirectory/member_headshots/maya.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/jerry.jpg"
     },
     {
         "memberId": 9,
-        "img_path": "./src/MemberDirectory/member_headshots/dell.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/maya.jpg"
     },
     {
         "memberId": 10,
-        "img_path": "./src/MemberDirectory/member_headshots/justin.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/dell.jpg"
     },
     {
         "memberId": 11,
-        "img_path": "./src/MemberDirectory/member_headshots/athena.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/justin.jpg"
     },
     {
         "memberId": 12,
-        "img_path": "./src/MemberDirectory/member_headshots/kian.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/athena.jpg"
     },
     {
         "memberId": 13,
-        "img_path": "./src/MemberDirectory/member_headshots/ethan.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/kian.jpg"
     },
     {
         "memberId": 14,
-        "img_path": "./src/MemberDirectory/member_headshots/madlen.jpg"
+        "img_path": "./src/MemberDirectory/member_headshots/caitlyn.jpg"
     },
     {
         "memberId": 15,
+        "img_path": "./src/MemberDirectory/member_headshots/ethan.jpg"
+    },
+    {
+        "memberId": 16,
+        "img_path": "./src/MemberDirectory/member_headshots/madlen.jpg"
+    },
+    {
+        "memberId": 17,
         "img_path": "./src/MemberDirectory/member_headshots/chris.jpg"
+    }, 
+    {
+        "memberId": 18,
+        "img_path": "./src/MemberDirectory/member_headshots/anthony.jpg"
     }
 ]

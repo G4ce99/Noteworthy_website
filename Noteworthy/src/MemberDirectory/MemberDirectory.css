@@ -6,6 +6,12 @@
     min-width: 1300px;
 }
 
+@media only screen and (max-width: 1000px) {
+    #root {
+        min-width: 800px;
+    }
+}
+
 .title {
     background: linear-gradient(to bottom, #ECC12A, #F0F1CF);
     -webkit-background-clip: text;
@@ -48,4 +54,5 @@
 .socialImg {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }

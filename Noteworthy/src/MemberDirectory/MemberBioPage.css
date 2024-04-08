@@ -25,7 +25,9 @@
     flex-direction: column;
     /* max-height: 90vh*/
   	height: 100vh;
-  	overflow-y:scroll
+  	overflow-y:scroll;
+
+    font-family: "Rubik", sans-serif;
 }
 
 .exitButton {
@@ -62,11 +64,26 @@
 
 .photoAndInfo {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; this is implicit*/
+}
+
+@media only screen and (max-width: 1200px) {
+    .photoAndInfo {
+        flex-direction: column;
+    }
 }
 
 .photoAndInfo > img {
-    width: 600px;
+    width: 50%;
+    height: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .photoAndInfo > img {
+        width: 100%;
+        min-width: 0;
+    }
 }
 
 .info {
@@ -75,7 +92,13 @@
     width: 50%;
 }
 
-.info > h3 {
+@media only screen and (max-width: 1200px) {
+    .info {
+        width: 100%;
+    }
+}
+
+.info-title {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -86,15 +109,27 @@
     margin-bottom: 0;
 }
 
-.info > p {
+.info-text {
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .info-text {
+        padding-left: 0;
+    }
+}
+
 .bio {
     white-space: pre-wrap;
     padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bio {
+        margin-top: 30px;
+    }
 }
 
 .leftArrow {

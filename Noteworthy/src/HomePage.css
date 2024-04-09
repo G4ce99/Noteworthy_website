@@ -1,33 +1,215 @@
-.home-page {
-    background-image: url('./noteworthy.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-height: 100vh;
-    min-width: 100vh;
-}
-
-
-.title {
-    position: absolute;
-    top: 80%;
-}
-
-.line {
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-    width: 70%;
-    height: 2px;
-    background-color: white;
-}
-
-.cover {
+.HOME {
+    background-color: #2e4564;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .HOME .overlap-wrapper {
+    background-color: #2e4564;
+    height: 1117px;
+    width: 1728px;
+  }
+  
+  .HOME .overlap {
+    background-image: url(./background-photo.png);
+    background-size: 100% 100%;
+    height: 1117px;
+    position: relative;
+  }
+  
+  .HOME .bottom-overlay {
+    background: linear-gradient(180deg, rgb(46, 70, 100) 0%, rgba(156.88, 156.88, 156.88, 0) 62.67%);
+    height: 420px;
+    left: 0;
     position: absolute;
     top: 0;
+    width: 1728px;
+  }
+  
+  .HOME .top-overlay {
+    background: linear-gradient(180deg, rgb(46, 70, 100) 0%, rgba(156.88, 156.88, 156.88, 0) 62.67%);
+    height: 420px;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2E4564; 
-    opacity: 0.4;
-}
+    position: absolute;
+    top: 697px;
+    width: 1728px;
+  }
+  
+  .HOME .slightly-blue {
+    background-color: #2e45646b;
+    height: 1117px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .HOME .text-wrapper {
+    color: #ffffff;
+    font-family: "Lexend-SemiBold", Helvetica;
+    font-size: 130px;
+    font-weight: 600;
+    left: 212px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 5px 5px 4.5px #2e4564;
+    top: 665px;
+  }
+  
+  .HOME .div {
+    color: #ffffff;
+    font-family: "Lexend-SemiBold", Helvetica;
+    font-size: 130px;
+    font-weight: 600;
+    left: 212px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 5px 5px 4.5px #2e4564;
+    top: 790px;
+  }
+  
+  .HOME .bottom-line {
+    height: 2px;
+    left: 183px;
+    position: absolute;
+    top: 974px;
+    width: 1361px;
+  }
+  
+  .HOME .icon-bar {
+    background-color: #2e456491;
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    height: 427px;
+    left: 1424px;
+    position: absolute;
+    top: 345px;
+    width: 120px;
+  }
+  
+  .HOME .instagram {
+    height: 39px;
+    left: 40px;
+    position: absolute;
+    top: 44px;
+    width: auto;
+  }
+  
+  .HOME .facebook {
+    height: 39px;
+    left: 40px;
+    position: absolute;
+    top: 138px;
+    width: auto;
+  }
+  
+  .HOME .youtube {
+    height: 39px;
+    left: 36px;
+    position: absolute;
+    top: 321px;
+    width: auto;
+  }
+  
+  .HOME .tiktok {
+    height: 39px;
+    left: 43px;
+    position: absolute;
+    top: 232px;
+    width: auto;
+  }
+  
+  .HOME .navbar {
+    height: 86px;
+    left: 183px;
+    position: absolute;
+    top: 61px;
+    width: 1369px;
+  }
+  
+  .HOME .overlap-group {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 82px;
+    width: 1361px;
+  }
+  
+  .HOME .line {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 1361px;
+  }
+  
+  .HOME .golden-line {
+    height: 4px;
+    left: 88px;
+    position: absolute;
+    top: 0;
+    width: 136px;
+  }
+  
+  .HOME .text-wrapper-2 {
+    color: #ecc12a;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 122px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .HOME .text-wrapper-3 {
+    color: #c6dded;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 378px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .HOME .text-wrapper-4 {
+    color: #c6dded;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 900px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .HOME .text-wrapper-5 {
+    color: #c6dded;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 1155px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .HOME .bearLogo {
+    height: 68px;
+    left: 638px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 86px;
+  }
+  

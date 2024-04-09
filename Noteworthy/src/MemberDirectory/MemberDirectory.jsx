@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './MemberDirectory.css'
 // Note from creator: Use the following guide to export the google sheet with form responses to JSON and put in member_info.json
 // https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/

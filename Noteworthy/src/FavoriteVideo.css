@@ -1,0 +1,45 @@
+#root {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    background: linear-gradient(to bottom, #ECC12A, #F0F1CF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: 36pt;
+  }
+  
+  .videoTable {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .videoCard {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .videoThumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .videoInfo {
+    margin-top: 8px;
+  }
+  
+  .videoTitle {
+    font-size: 14px;
+    color: #333;
+  }

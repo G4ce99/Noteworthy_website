@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar.jsx'; // Reuse your Navbar component
+import Navbar from './Navbar.jsx'; // Reuse your Navbar component
 import './About.css'; // Path to your CSS file for styling
 
 function AboutPage() {

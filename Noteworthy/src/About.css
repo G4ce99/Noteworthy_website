@@ -1,0 +1,16 @@
+.title {
+    background: linear-gradient(to bottom, #ECC12A, #F0F1CF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: 36pt;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

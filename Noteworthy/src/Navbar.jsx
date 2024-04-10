@@ -21,8 +21,8 @@ const Navbar = () => {
                     <button className="homeButton">home</button>
                     <button className="aboutButton">about</button>
                     <button className="videosButton">videos</button>
-                    <button className="membersButton">members</button>
-                    <img className="bearLogo" alt="Bear logo" src="bearLogo.png" />
+                    <a href="/src/MemberDirectory/" className="membersButton">members</a>
+                    <img className="bearLogo" alt="Bear logo" src="/bearLogo.png" />
                 </div>
             </div>
         </nav>

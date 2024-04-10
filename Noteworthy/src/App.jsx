@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import HomePage from './HomePage';
 import About from './About';
-import MemberDirectory from './MemberDirectory/MemberDirectory';
+// import mainMemberDirectory from './MemberDirectory/mainMemberDirectory.jsx';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        {/* <Route path="/members" element={<memberDirectory />} /> */}
       </Routes>
     </Router>
   );

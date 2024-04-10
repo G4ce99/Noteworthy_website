@@ -127,10 +127,10 @@ function MemberDirectory() {
         {rows}
       </div>
       <div>
-        <a href="https://www.instagram.com/cal_noteworthy/" target="_blank"><img src="./src/MemberDirectory/social_imgs/insta.png" class="socialImg"/></a>
-        <a href="https://www.facebook.com/Noteworthy" target="_blank"><img src="./src/MemberDirectory/social_imgs/facebook.png" class="socialImg"/></a>
-        <a href="https://www.tiktok.com/@uc_noteworthy" target="_blank"><img src="./src/MemberDirectory/social_imgs/tiktok.png" class="socialImg"/></a>
-        <a href="https://www.youtube.com/channel/UCDyMtV5cuuJZrg5Wm7VZmMA" target="_blank"><img src="./src/MemberDirectory/social_imgs/youtube.png" class="socialImg"/></a>
+        <a href="https://www.instagram.com/cal_noteworthy/" target="_blank"><img src="./social_imgs/insta.png" class="socialImg"/></a>
+        <a href="https://www.facebook.com/Noteworthy" target="_blank"><img src="./social_imgs/facebook.png" class="socialImg"/></a>
+        <a href="https://www.tiktok.com/@uc_noteworthy" target="_blank"><img src="./social_imgs/tiktok.png" class="socialImg"/></a>
+        <a href="https://www.youtube.com/channel/UCDyMtV5cuuJZrg5Wm7VZmMA" target="_blank"><img src="./social_imgs/mingcute_youtube-fill.png" class="socialImg"/></a>
       </div>
     </>
   )

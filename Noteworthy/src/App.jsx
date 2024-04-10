@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import HomePage from './HomePage';
 import About from './About';
-import MemberDirectory from './MemberDirectory/MemberDirectory';
+import FavoriteVideos from './FavoriteVideos';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/fav-videos" element={<FavoriteVideos />} />
       </Routes>
     </Router>
   );

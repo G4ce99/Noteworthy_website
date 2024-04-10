@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './MemberDirectory.css'
 // Note from creator: Use the following guide to export the google sheet with form responses to JSON and put in member_info.json
 // https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/
 // Member image json data were uploaded manually for the Member Profiles/Bio components, but can created similarly
 import jsonData from './member_info.json'
 import MemberProfile from './MemberProfile.jsx'
+import Navbar from '../Navbar.jsx'
+// import '../HomePage.css'
 
 function MemberDirectory() {
   document.body.style.margin = 0
@@ -119,7 +120,7 @@ function MemberDirectory() {
   //(CurrId == -1) ? document.body.style.position = 'static': document.body.style.position = 'fixed'
   return (
     <>
-      <div>NavBar Goes Here!</div>
+      <Navbar />
       <h2 class="title">M E M B E R S</h2>
       <h3 class="subtitle">Click on their profiles to learn more!</h3>
       <div class="memberProfileTable">

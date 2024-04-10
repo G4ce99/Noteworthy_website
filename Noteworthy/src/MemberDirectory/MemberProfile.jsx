@@ -4,7 +4,7 @@ import imgData from './member_imgs.json'
 
 import MemberBioPage from './MemberBioPage'
 
-function About(props) {
+function MemberProfile(props) {
   /* Could use a for loop to identify correct member metadata, but if current member_info list
      has property member_id = json data index, then we can access correct data with member_id */
   const data = jsonData[props.member_id]
